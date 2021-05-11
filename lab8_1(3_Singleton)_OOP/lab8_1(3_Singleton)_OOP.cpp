@@ -1,4 +1,8 @@
-﻿#include <iostream>
+﻿/*
+паттерн "одинак"
+Клас лічильник
+*/
+#include <iostream>
 
 using namespace std;
 
@@ -23,7 +27,6 @@ private:
 			max_value[i] = 9;
 		}
 	}
-
 public:
 	static DigitalCounter& getInstance() {
 		if (count == 0) {
@@ -139,5 +142,5 @@ void DigitalCounter::counterIncrease(int* counter) {
 3
 23 59 59
 0 0 0
-1 1 2
+1 1 59
 */
